@@ -6,7 +6,7 @@
  * the standard rules and increased duration from the
  * concentration edge.
  * 
- * v. 4.1.2
+ * v. 4.1.3
  * By SalieriC#8263; dialogue resizing by Freeze#2689.
  * 
  * Powers on hold for now:
@@ -131,7 +131,7 @@ export async function effect_builder() {
         content: game.i18n.format("SWIM.dialogue-powerEffectBuilderContent", { class: officialClass, options: options, text: boostLowerContent }),
         buttons: {
             one: {
-                label: `<i class="fas fa-magic"></i> Proceed`,
+                label: `<i class="fas fa-magic"></i> ${game.i18n.localize("SWIM.button-proceed")}`,
                 callback: async (html) => {
                     const selectedPower = html.find(`#selected_power`)[0].value
                     const usePowerIcons = game.settings.get("swim", "effectBuilder-usePowerIcons")

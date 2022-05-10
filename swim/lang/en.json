@@ -317,5 +317,8 @@
   "SWIM.dialogue-takingInitiativeTitle": "Taking Initiative",
   "SWIM.dialogue-takingInitiativeText": "Do you want to act immediately (requires a successful opposed Athletics roll) or after the current combatant?",
   "SWIM.dialogue-takingInitiative-ButtonNow": "Now",
-  "SWIM.dialogue-takingInitiative-ButtonAfter": "After"
+  "SWIM.dialogue-takingInitiative-ButtonAfter": "After",
+  "SWIM.dialogue-ppManagementTitle": "Power Point Management",
+  "SWIM.dialogue-ppManagementContent": "{class}<p>Here you can manage your power points. Note that only the Power Points of the selected token (or your linked actor if you've selected none) can be changed.</p>",
+  "SWIM.button-proceed": "Proceed"
 }
