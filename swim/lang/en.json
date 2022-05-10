@@ -319,6 +319,12 @@
   "SWIM.dialogue-takingInitiative-ButtonNow": "Now",
   "SWIM.dialogue-takingInitiative-ButtonAfter": "After",
   "SWIM.dialogue-ppManagementTitle": "Power Point Management",
-  "SWIM.dialogue-ppManagementContent": "{class}<p>Here you can manage your power points. Note that only the Power Points of the selected token (or your linked actor if you've selected none) can be changed.</p>",
-  "SWIM.button-proceed": "Proceed"
+  "SWIM.dialogue-ppManagementContent": "<form>{class}<p>Here you can manage your power points. Note that only the Power Points of the selected token (or your linked actor if you've selected none) can be changed.</p><div class='form-group'><label for='selected_option'><p>Action: </p></label><select id='selected_option'>{options}</select></div><hr /><div class='selectionContent'>{text}</div></form>",
+  "SWIM.button-proceed": "Proceed",
+  "SWIM.ppOption-manual": "Manual",
+  "SWIM.ppOption-power": "Choose a power",
+  "SWIM.ppOption-benny": "Benny Recharge",
+  "SWIM.edge-wizard": "Wizard",
+  "SWIM.edge-soulDrain": "Soul Drain",
+  "SWIM.dialogue-ppManagementManualContent": "<div style='display:flex'><p style='flex:3'>Power Point Amount: </p><input type='number' id='ppAmount' value='5' style='flex:1'/></input></div><p>Positive numbers will increase, negative numbers will decrease your power points.</p></div>"
 }
