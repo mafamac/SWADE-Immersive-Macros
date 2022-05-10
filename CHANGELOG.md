@@ -5,9 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+☮️ Peace in the world, or the world in pieces. 🕊️
+Oh boy, here we go...
+### Added
+### Fixed
+### Changed
+
+I'm very sorry about this but... If you want to help me further maintaining my PP manipulator, or just want to show your appreciation for it, please consider a donation. =)  
+<a href="https://ko-fi.com/salieric"><img style="border: 0px; display: block; margin-left: auto; margin-right: auto;" src="https://www.ko-fi.com/img/githubbutton_sm.svg" width="223" height="30" /></a>
 
 ## [0.18.0] - 2022-05-09
-☮️ Peace in the world, or the world in pieces. 🕊️
 ### Added
 - Mighty Summoner: Summoned Creatures now get an Active Effect with the appropriate duration. Duration is doubled if the summoner has the Concentration Edge.
 - Various new assets (see ReadMe for credits, all altered by SalieriC#8263):  
@@ -73,8 +80,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a bug in the ammo management where single reloading a weapon which is full would overflow the weapons capacity.
 - Fixed a bug that caused weapons which do not require reloading actions to reload anyway.
 - Fixed a bug that prevented the removal of Shaken if all Wounds were soaked.  
-
-<a href="https://ko-fi.com/salieric"><img style="border: 0px; display: block; margin-left: auto; margin-right: auto;" src="https://www.ko-fi.com/img/githubbutton_sm.svg" width="223" height="30" /></a>
 
 ## [0.17.1] - 2022-04-27
 ### Fixed
