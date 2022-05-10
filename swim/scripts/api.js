@@ -11,6 +11,7 @@ import { loot_o_mat_script } from './swim_modules/loot-o-mat.js'
 import { mark_dead_script } from './swim_modules/mark_dead.js'
 import { summoner_script } from './swim_modules/mighty-summoner.js'
 import { personal_health_centre_script } from './swim_modules/personal_health_centre.js'
+import { pp_management_script } from './swim_modules/pp_management.js'
 import { radiation_centre_script } from './swim_modules/radiation_centre.js'
 import { scale_calculator } from './swim_modules/scale_calculator.js'
 import { shape_changer_script } from './swim_modules/shape_changer.js'
@@ -55,6 +56,7 @@ export class api {
       mark_dead: api._mark_dead,
       mighty_summoner: api._mighty_summoner,
       personal_health_centre: api._personal_health_centre,
+      pp_management: api._pp_management,
       radiation_centre: api._radiation_centre,
       scale_calculator: api._scale_calculator,
       shape_changer: api._shape_changer,
@@ -246,6 +248,7 @@ export class api {
    * - Mark Dead
    * - Mighty Summoner
    * - Personal Health Centre
+   * - Power Point Management
    * - Radiation Centre
    * - Scale Calculator
    * - Shape Changer
@@ -348,6 +351,10 @@ export class api {
   // Personal Health Centre
   static async _personal_health_centre() {
     personal_health_centre_script()
+  }
+  // PP Management
+  static async _pp_management(message = false, item = false, actor = false) {
+    pp_management_script(message, item, actor)
   }
   // Radiation Centre
   static async _radiation_centre() {
