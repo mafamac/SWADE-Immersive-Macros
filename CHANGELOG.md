@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Oh boy, here we go...
 ### Added
 ### Fixed
+- Missing translation string in Effect Builder.
 ### Changed
 
 I'm very sorry about this but... If you want to help me further maintaining my PP manipulator, or just want to show your appreciation for it, please consider a donation. =)  
