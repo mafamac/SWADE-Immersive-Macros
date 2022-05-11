@@ -21,6 +21,14 @@ export async function pp_management_script (message = false, item = false, actor
         if (soulDrain) { options += `<option value="soulDrain">${game.i18n.localize("SWIM.edge-soulDrain")}</option>` }
         if (wizard) { options += `<option value="wizard">${game.i18n.localize("SWIM.edge-wizard")}</option>` }
 
+        const powers = actor.items.filter(p => p.type === "power")
+        let powerOptions = ``
+        let allOptions = {}
+        for (let power of powers) {
+            powerOptions += `<option value=${power.id}>${power.name}</option>`
+            const actions = power.data.data.actions.additional //not iterable and path consists of IDs. ARGH!
+        }
+
         //Main Dialogue
         new Dialog({
             title: game.i18n.localize("SWIM.dialogue-ppManagementTitle"),
