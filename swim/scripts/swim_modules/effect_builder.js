@@ -821,7 +821,7 @@ export async function effect_builder_gm(data) {
     }
     const power = caster.actor.items.find(p => p.name.toLowerCase().includes(game.i18n.localize(`SWIM.power-${type}`).toLowerCase()) && p.type === "power" )
     let additionalChange = false
-    if (casterIsTarget && noPP === true && !(type === "blind" || type === "confusion" || selectedPower === "sloth")) {
+    if (casterIsTarget && noPP === true && !(type === "blind" || type === "confusion" || type === "sloth")) {
         if (power) {
             const skillName = power.data.data.actions.skill
             additionalChange = [{ key: `@Skill{${skillName}}[data.die.modifier]`, mode: 2, priority: undefined, value: -1 }]

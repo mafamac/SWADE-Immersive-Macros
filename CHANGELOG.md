@@ -11,6 +11,7 @@ Oh boy, here we go...
 ### Fixed
 - Missing translation string in Effect Builder.
 - Fixed a bug in the ammo management that prevented reloading.
+- Fixed a critical bug in the Power Effect Builder.
 ### Changed
 
 I'm very sorry about this but... If you want to help me further maintaining my PP manipulator, or just want to show your appreciation for it, please consider a donation. =)  
